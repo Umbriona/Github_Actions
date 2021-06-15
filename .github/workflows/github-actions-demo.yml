@@ -4,5 +4,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: python -m unittest test_area
+      - run: python -m unittest tests/test_area
       
