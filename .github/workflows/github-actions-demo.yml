@@ -4,5 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - run: pwd
       - run: python -m unittest tests/test_area
       
